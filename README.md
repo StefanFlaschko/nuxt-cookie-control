@@ -144,7 +144,7 @@ colors: {
 cookies: {
   necessary: [],
   optional: [],
-}
+},
 
 // The milliseconds from now until expiry of the cookies that are being set by this module.
 cookieExpiryOffsetMs: 1000 * 60 * 60 * 24 * 365, // one year
@@ -156,10 +156,10 @@ cookieNameCookiesEnabledIds: 'ncc_e',
 // Options to pass to nuxt's useCookie
 cookieOptions: {
   path: '/',
-}
+},
 
 // Switch to toggle the "accept necessary" button.
-isAcceptNecessaryButtonEnabled: true
+isAcceptNecessaryButtonEnabled: true,
 
 // Switch to toggle the button that opens the configuration modal.
 isControlButtonEnabled: true,
